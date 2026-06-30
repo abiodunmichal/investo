@@ -72,7 +72,7 @@ export default function DepositSection({ onDepositVerified }: DepositSectionProp
     const message = `Hello Admin, I have just initiated a deposit of ${formattedAmount} to your OPay account.\n\n*Deposit Details*:\n- Bank Name: ${bankDetails.bankName}\n- Account Name: ${bankDetails.accountName}\n- Account Number: ${bankDetails.accountNumber}\n- Amount Sent: ${formattedAmount}${receiptFile ? `\n- Receipt Attached: ${receiptFile.name}` : ''}\n\nPlease approve this deposit request on your admin site so my multiplier contract can begin to double immediately. Thank you!`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/2347067439151?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/2349067439151?text=${encodedMessage}`;
 
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, '_blank');

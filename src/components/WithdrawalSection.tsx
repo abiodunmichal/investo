@@ -52,7 +52,7 @@ export default function WithdrawalSection({ walletBalance, onSubmitWithdrawal }:
     const message = `Hello Admin, I would like to request a withdrawal of ${formattedAmount} from my 2-Hour Investment wallet.\n\n*My Bank Payout Details*:\n- Bank Name: ${bankName}\n- Account Name: ${accountName}\n- Account Number: ${accountNumber}\n- Amount Requested: ${formattedAmount}\n\nPlease process this transaction. Thank you!`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/2347067439151?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/2349067439151?text=${encodedMessage}`;
 
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, '_blank');
