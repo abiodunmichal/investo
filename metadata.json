@@ -1,0 +1,6 @@
+{
+  "name": "2-Hour Investment Platform",
+  "description": "A premium, dark-themed mobile-responsive platform for funding your wallet, starting 2-hour doubler investments, and requesting withdrawals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
